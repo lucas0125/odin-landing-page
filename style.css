@@ -4,6 +4,11 @@ body {
     padding: 0;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 .header, .contenta, .footer {
     background-color: #1F2937;
 }
@@ -22,4 +27,47 @@ h1, ul {
     padding-left: 100px;
     padding-top: 10px;
     display: flex;
+}
+
+.headerlinks {
+    display: flex;
+    margin-left: auto;
+    padding-right: 100px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+}
+
+.headerlinks a {
+    text-decoration: none;
+
+}
+
+.headerlinks a, .contentatext {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.contenta {
+    padding-top: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+img {
+    display: flex;
+    flex-shrink: 1;
+    height: 200px;
+    width: 400px;
 }
